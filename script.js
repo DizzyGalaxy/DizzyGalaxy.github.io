@@ -1,19 +1,19 @@
 function gameDev() {
-    window.location.href = "gameDev.html"
+    window.location.href = "./gameDev"
 }
 
 function writings() {
-    window.location.href = "writings.html"
+    window.location.href = "./writings"
 }
 
 function stuffWorks() {
-    window.location.href = "stuffWorks.html"
+    window.location.href = "./stuffWorks"
 }
 
 function artworks() {
-    window.location.href = "artworks.html"
+    window.location.href = "./artworks"
 }
 
 function goBack() {
-    window.location.href = "index.html"
+    window.location.href = "./"
 }
