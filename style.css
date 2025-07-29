@@ -55,3 +55,7 @@ a {
 .heading {
     font-size: 75px;
 }
+
+#profile {
+    width: 480px;
+}
