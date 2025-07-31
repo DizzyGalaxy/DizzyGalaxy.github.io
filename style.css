@@ -20,6 +20,7 @@ div {
     text-align: center;
 }
 
+
 #author {
     font-size: 75px;
 }
@@ -58,4 +59,27 @@ a {
 
 #profile {
     width: 480px;
+    image-rendering: pixelated;
+}
+
+.artworks {
+    width: 600px;
+    border: 10px solid;
+    border-radius: 8px;
+    margin-bottom: 50px;
+}
+
+.pixelArt {
+    image-rendering: pixelated; 
+}
+
+.sectionIntro {
+    border: 5px solid;
+    border-radius: 8px;
+    padding: 35px;
+    margin-bottom: 100px;
+}
+
+.artworkDesc {
+    margin-bottom: 100px;
 }

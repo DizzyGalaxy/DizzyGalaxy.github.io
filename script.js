@@ -1,17 +1,17 @@
 function gameDev() {
-    window.location.href = "./gameDev"
+    window.location.href = "gameDev.html"
 }
 
 function writings() {
-    window.location.href = "./writings"
+    window.location.href = "writings.html"
 }
 
 function stuffWorks() {
-    window.location.href = "./stuffWorks"
+    window.location.href = "stuffWorks.html"
 }
 
-function artworks() {
-    window.location.href = "./artworks"
+function artworksTab() {
+    window.location.href = "artworks.html"
 }
 
 function goBack() {
@@ -28,10 +28,23 @@ let mobile = window.mobileCheck()
 let profile = document.getElementById("profile")
 let author = document.getElementById("author")
 let div = document.querySelector("div")
+let buttons = document.querySelectorAll("button")
+let artworks = document.querySelectorAll(".artworks")
 
 if (mobile) {
     div.style.width = "80%"
-    profile.style.width = "720px";
-    author.style.fontSize = "150px";
     div.style.fontSize = "32px"
+
+    buttons.forEach((button) => {
+        button.style.height = "130px";
+    });
+
+    artworks.forEach((artwork) => {
+        artwork.style.width = "2000px";
+    });
+
+    if (profile) {
+        profile.style.width = "720px";
+        author.style.fontSize = "150px";
+    }
 }
